@@ -6,12 +6,16 @@ The topological sort algorithm takes a directed acyclic (DAG) graph and returns 
 
 The algorithm loop through each node of the graph, in an arbitrary order, initiating a depth first search that terminates when it hits any node that has already been visited since the beginning or the node has no outgoing edges.
 
+Time Complexity : `O (V + E)`
+
+The algorithm is simply DFS with an extra stack.
+
 ### Applications
 
 - Build Systems.
 - Advanced Packaging Tool.
 - Task Scheduling.
-- Pre-requisite or dependencies problem. 
+- Pre-requisite or dependencies problem.
 
 
 
